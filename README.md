@@ -39,3 +39,12 @@
 ```bash
 <a href="http://collabcode.training">CollabCode.training</a>
 ```
+
+## CSS
+
+É uma linguagem de estilo, isso que dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
+
+- `reset.css` - Remove todos os espaçamentos e tamanhos padrões que ja vem no css
+  Deve ser criado uma pasta do `reset.css` e linkada no html antes de qualquer outro link.
