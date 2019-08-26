@@ -1,22 +1,43 @@
 header {
   background-color: #e24647;
-}
-
-h1,
-a {
   color: #fff;
+  overflow: hidden;
+
+  /*   margin-left: 115px;  suspiro externo
+  margin-right: 115px;  */
+  margin: 0 115px;
+
+  /* padding-left: 60px;    suspiro interno
+  padding-right: 60px;
+  padding-top: 55px;
+  padding-bottom: 95px;
+ 
+  padding: top right bottom left; 
+  padding: 50px 60px 95px 60px;
+ 
+  padding:top/bottom right/left;
+  padding: 55px 60px; */
+
+  /* padding: top right/left bottom*/
+  padding: 55px 60px 95px;
+
+  /*   padding: top/right/left/bottom;
+  padding: 60px; */
 }
 
 h1 {
   font-size: 40px;
-  text-align: left;
-  font-family: ArialMT;
+  font-family: Arial, "Roboto", sans-serif;
+  float: left;
 }
 
-a,
 nav {
-  text-decoration: none;
   font-size: 21px;
-  text-align: right;
-  font-family: SegoeUI;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
