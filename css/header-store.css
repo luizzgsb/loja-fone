@@ -1,12 +1,14 @@
 .header-store {
   color: #fff;
   overflow: hidden;
+  margin-bottom: 138px;
 }
 
 .header-store > .title {
   font-size: 40px;
   font-family: Arial, "Roboto", sans-serif;
   float: left;
+  text-transform: uppercase;
 }
 
 .header-store > .navigation {
