@@ -21,17 +21,17 @@
   cursor: pointer;
 }
 
-.description-product > .item.-heart:hover {
-  transform: scale(1.2);
-}
-
 .description-product > .item.-star {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
-.description-product > .item.-star:hover {
-  transform: scale(1.1);
+.description-product .icon {
+  transition: transform 100ms linear;
+}
+
+.description-product .icon:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .item.-star + .item {
