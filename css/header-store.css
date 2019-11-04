@@ -65,6 +65,7 @@
 @media (max-width: 1310px) {
   .header-store {
     padding-right: 60px;
+    margin-bottom: 50px;
   }
 }
 
@@ -85,6 +86,7 @@
   .header-store {
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 40px;
   }
   .header-store [type="search"] {
     display: none;
