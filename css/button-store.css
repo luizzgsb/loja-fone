@@ -9,7 +9,7 @@
   height: 60px;
   text-align: center;
   line-height: 60px;
-  margin-right: 38px;
+  margin-right: 0;
   text-decoration: none;
   border: none;
   cursor: pointer;
@@ -48,4 +48,23 @@
   border: none;
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .button-store.-second {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .button-store,
+  .button-store.-second {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-store.-second {
+    margin-bottom: 20px;
+  }
 }
